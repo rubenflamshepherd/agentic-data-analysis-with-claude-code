@@ -1,0 +1,6 @@
+activity_bucket,user_count,total_answers_in_bucket,total_score_in_bucket,avg_score_per_answer,avg_total_score_per_user,pct_positive_answers,pct_zero_answers,pct_negative_answers,highest_single_answer_score
+1000+ answers,2674,6522625,25291681,3.83,9458.4,73.8,25.5,0.6,11679
+100-999 answers,46241,11020523,38153622,3.34,825.1,64.0,34.7,1.4,34269
+10-99 answers,393703,10769910,30190178,2.67,76.7,52.9,44.5,2.6,17827
+2-9 answers,1038664,3942112,8571904,2.09,8.3,45.0,51.0,4.0,6633
+1 answer,1406533,1406533,2844727,2.02,2.0,41.8,51.9,6.2,4992

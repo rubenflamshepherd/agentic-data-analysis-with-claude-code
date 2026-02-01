@@ -1,0 +1,59 @@
+{
+  "csv_path": "/Users/ruben.flam-shepherd/projects/data-claude/research/2026-01-31-141217-reputation-growth-factors/tags/3_result.csv",
+  "dataset_stats": {
+    "row_count": 12,
+    "columns": ["technology_domain", "tag_count", "total_questions", "avg_questions_per_tag", "max_questions_in_domain", "fully_documented_count", "pct_documented"]
+  },
+  "domain_analysis": {
+    "programming_languages": {
+      "tag_count": 29,
+      "total_questions": 12712868,
+      "avg_per_tag": 438375,
+      "pct_documented": 100.0,
+      "note": "Core languages have highest avg questions per tag (438K) - most competitive"
+    },
+    "mobile_development": {
+      "tag_count": 1417,
+      "total_questions": 3480544,
+      "avg_per_tag": 2456,
+      "pct_documented": 63.9,
+      "note": "Large ecosystem but lower documentation rate suggests opportunity"
+    },
+    "data_science_ml": {
+      "tag_count": 122,
+      "total_questions": 648718,
+      "avg_per_tag": 5317,
+      "pct_documented": 71.3,
+      "note": "High average questions per tag suggests growing, concentrated domain"
+    },
+    "devops": {
+      "tag_count": 242,
+      "total_questions": 367403,
+      "pct_documented": 50.8,
+      "note": "Lowest documentation rate at 50.8% - significant gap for contribution"
+    }
+  },
+  "patterns": [
+    {
+      "pattern_type": "concentration",
+      "description": "29 programming language tags generate 12.7M questions (438K avg each), while 56K 'Other' tags average only 742 questions",
+      "severity": "significant"
+    },
+    {
+      "pattern_type": "documentation_gap",
+      "description": "DevOps has lowest documentation rate (50.8%), followed by Frontend Frameworks (53.4%) and Cloud Platform (60.9%)",
+      "severity": "notable"
+    },
+    {
+      "pattern_type": "emerging_domain",
+      "description": "Data Science/ML has high avg questions per tag (5,317) suggesting concentrated, active domain",
+      "severity": "info"
+    }
+  ],
+  "observations": [
+    "Programming languages dominate with 438K avg questions/tag vs 742 for uncategorized tags - 590x difference",
+    "DevOps has the worst documentation coverage (50.8%) indicating an underserved niche for contributions",
+    "Data Science/ML shows high avg engagement (5,317 questions/tag) with only 122 tags - concentrated expertise area",
+    "Frontend frameworks have 1,239 tags but only 53.4% documentation - fast-evolving space with knowledge gaps"
+  ]
+}

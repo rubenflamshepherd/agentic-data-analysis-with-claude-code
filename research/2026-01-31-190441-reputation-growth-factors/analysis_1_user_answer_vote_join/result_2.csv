@@ -1,0 +1,8 @@
+Waiting on bqjob_r713e5cb77446f270_0000019c16f532de_1 ... (0s) Current status: RUNNING                                                                                      Waiting on bqjob_r713e5cb77446f270_0000019c16f532de_1 ... (1s) Current status: RUNNING                                                                                      Waiting on bqjob_r713e5cb77446f270_0000019c16f532de_1 ... (2s) Current status: RUNNING                                                                                      Waiting on bqjob_r713e5cb77446f270_0000019c16f532de_1 ... (3s) Current status: RUNNING                                                                                      Waiting on bqjob_r713e5cb77446f270_0000019c16f532de_1 ... (3s) Current status: DONE   
+reputation_tier,users_in_tier,total_upvotes_received,rep_from_upvotes,total_downvotes_received,rep_from_downvotes,total_accepted_answers,rep_from_accepted,total_rep_earned_from_answers,upvote_downvote_ratio,avg_upvotes_per_active_user,pct_rep_from_upvotes,pct_rep_from_accepted
+6_Elite_100k+,1143,1325874,13258740,19115,-38230,84694,1270410,14490920,69.36,1170.23,91.26,8.74
+5_Expert_10k-100k,24725,2578427,25784270,50824,-101648,158853,2382795,28065417,50.73,109.19,91.54,8.46
+4_Established_1k-10k,225674,2947898,29478980,87671,-175342,181242,2718630,32022268,33.62,16.47,91.56,8.44
+3_Active_100-1k,934986,1461635,14616350,78522,-157044,138352,2075280,16534586,18.61,4.25,87.57,12.43
+2_Beginner_10-100,2767773,400851,4008510,45360,-90720,69102,1036530,4954320,8.84,1.64,79.45,20.55
+1_New_1-10,14757911,10404,104040,29756,-59512,7309,109635,154163,0.35,4.33,48.69,51.31

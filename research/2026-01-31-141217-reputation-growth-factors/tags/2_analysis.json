@@ -1,0 +1,70 @@
+{
+  "csv_path": "/Users/ruben.flam-shepherd/projects/data-claude/research/2026-01-31-141217-reputation-growth-factors/tags/2_result.csv",
+  "dataset_stats": {
+    "row_count": 6,
+    "total_tags": 63653,
+    "total_questions": 68341435,
+    "columns": ["volume_tier", "tag_count", "total_questions", "avg_questions_per_tag", "fully_documented_count", "has_some_docs_count", "undocumented_count", "pct_fully_documented"]
+  },
+  "tier_breakdown": {
+    "1M+_questions": {
+      "tag_count": 8,
+      "total_questions": 12886919,
+      "pct_of_all_questions": 18.9,
+      "pct_fully_documented": 100.0
+    },
+    "100K-999K_questions": {
+      "tag_count": 68,
+      "total_questions": 16542215,
+      "pct_of_all_questions": 24.2,
+      "pct_fully_documented": 100.0
+    },
+    "10K-99K_questions": {
+      "tag_count": 730,
+      "total_questions": 19517190,
+      "pct_of_all_questions": 28.6,
+      "pct_fully_documented": 100.0
+    },
+    "1K-9.9K_questions": {
+      "tag_count": 4478,
+      "total_questions": 13158288,
+      "pct_of_all_questions": 19.3,
+      "pct_fully_documented": 99.8
+    },
+    "100-999_questions": {
+      "tag_count": 15919,
+      "total_questions": 5113035,
+      "pct_of_all_questions": 7.5,
+      "pct_fully_documented": 91.2
+    },
+    "<100_questions": {
+      "tag_count": 42450,
+      "total_questions": 1123788,
+      "pct_of_all_questions": 1.6,
+      "pct_fully_documented": 59.3
+    }
+  },
+  "patterns": [
+    {
+      "pattern_type": "pareto",
+      "description": "Top 806 tags (1.3% of all tags) account for 71.7% of all questions (49M of 68M)",
+      "severity": "significant"
+    },
+    {
+      "pattern_type": "long_tail",
+      "description": "42,450 tags (67% of all tags) have fewer than 100 questions each, comprising only 1.6% of total questions",
+      "severity": "notable"
+    },
+    {
+      "pattern_type": "documentation_correlation",
+      "description": "Documentation completeness strongly correlates with tag volume: 100% documented at >10K questions, drops to 59.3% at <100 questions",
+      "severity": "notable"
+    }
+  ],
+  "observations": [
+    "Only 8 tags have 1M+ questions, but they represent 18.9% of all SO questions",
+    "The 806 tags with 10K+ questions represent 71.7% of all questions despite being only 1.3% of tags",
+    "17,283 tags (27% of all tags) have no documentation whatsoever",
+    "Mid-tier tags (1K-10K questions) offer a balance: 4,478 tags with 99.8% documentation and meaningful question volume"
+  ]
+}

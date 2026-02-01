@@ -1,0 +1,10 @@
+score_bucket,question_count,pct_of_total,avg_views,avg_answers,pct_with_accepted_answer
+a. Very Negative (<-5),600,0.03,128.0,1.28,40.0
+b. Negative (-5 to -1),139739,8.12,124.0,1.22,37.92
+c. Zero,1140649,66.28,124.0,0.69,25.13
+d. Low Positive (1),311327,18.09,209.0,1.0,43.75
+e. Moderate (2-5),121914,7.08,442.0,1.26,50.81
+f. Good (6-10),5094,0.3,2129.0,1.91,55.28
+g. High (11-50),1621,0.09,8721.0,3.33,64.9
+h. Very High (51-100),99,0.01,32407.0,6.76,71.72
+i. Exceptional (>100),36,0.0,98836.0,11.78,66.67

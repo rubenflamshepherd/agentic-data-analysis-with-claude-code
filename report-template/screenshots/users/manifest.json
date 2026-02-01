@@ -1,0 +1,13 @@
+{
+  "exportedAt": "2026-02-01T00:20:43.961Z",
+  "tableFilter": null,
+  "chartIdFilter": "users-3-chart-4",
+  "charts": [
+    {
+      "title": "Average Profile Views by Completeness Level",
+      "filename": "average_profile_views_by_completeness_level.png",
+      "chartId": "users-3-chart-4",
+      "tableName": "users"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+growth_type,join_era,users,avg_reputation,pct_posts_are_answers,pct_score_from_answers,avg_score_per_answer,avg_score_per_question,avg_posts_per_year
+Early Bloomer,2008-2011 (Pioneer),12628,19744.0,74.5,69.3,5.27,9.77,16.9
+Early Bloomer,2012-2015 (Growth),10395,7818.0,78.1,78.5,2.56,3.5,17.8
+Early Bloomer,2016+ (Mature),4575,4878.0,84.1,85.7,1.42,1.77,29.7
+Late Bloomer,2008-2011 (Pioneer),4625,14298.0,82.2,82.2,3.2,3.82,24.4
+Late Bloomer,2012-2015 (Growth),4521,7417.0,82.7,83.3,1.78,2.04,24.2
+Late Bloomer,2016+ (Mature),202,4028.0,88.1,87.2,0.89,1.1,23.9
+Plateau,2008-2011 (Pioneer),7950,18581.0,79.2,76.4,4.62,7.15,19.8
+Plateau,2012-2015 (Growth),8351,8044.0,76.9,77.8,2.56,3.17,19.2
+Plateau,2016+ (Mature),3685,5980.0,84.0,86.1,1.39,1.65,32.6
+Steady Grower,2008-2011 (Pioneer),10910,19261.0,78.7,78.5,3.61,5.31,26.4
+Steady Grower,2012-2015 (Growth),9468,9431.0,77.3,79.6,2.17,2.49,26.3
+Steady Grower,2016+ (Mature),1026,7552.0,87.4,89.5,1.17,1.5,41.2

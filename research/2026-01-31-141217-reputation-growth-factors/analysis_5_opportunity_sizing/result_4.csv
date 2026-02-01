@@ -1,0 +1,6 @@
+domain,unique_answerers,total_answers,answers_per_person,avg_answerer_reputation,high_rep_answerers_10k,high_rep_answerers_50k,high_rep_pct,competition_index
+Python (Baseline),57560,255291,4.4,38533.0,2146,545,3.7,4.44
+JavaScript (Baseline),58272,191007,3.3,34635.0,2289,499,3.9,3.28
+ML/AI,7710,18781,2.4,11307.0,440,146,5.7,2.44
+Cloud Platform,24758,73308,3.0,30680.0,1441,345,5.8,2.96
+DevOps,14097,31733,2.3,33262.0,962,226,6.8,2.25

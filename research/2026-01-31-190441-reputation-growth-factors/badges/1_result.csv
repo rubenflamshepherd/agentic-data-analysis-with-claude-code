@@ -1,0 +1,7 @@
+class,class_name,tag_based,badge_count,unique_users,unique_badge_types,pct_of_total
+1,Gold,false,31706,29471,15,3.14
+1,Gold,true,176,166,91,0.02
+2,Silver,false,232087,190348,26,23.0
+2,Silver,true,517,492,231,0.05
+3,Bronze,false,742134,560285,38,73.53
+3,Bronze,true,2673,2372,802,0.26

@@ -1,0 +1,43 @@
+{
+  "query_description": "Day-of-Week Patterns for Reputation-Affecting Votes",
+  "total_rows": 7,
+  "date_range": "2022-06-27 to 2022-09-24",
+  "observations": [
+    {
+      "category": "Peak Activity Days",
+      "finding": "Wednesday is the peak day for voting activity with 639,516 total reputation-affecting votes over the period. Tuesday and Thursday are close behind (~622-632K).",
+      "data_points": {
+        "wednesday_votes": 639516,
+        "tuesday_votes": 632289,
+        "thursday_votes": 622341,
+        "sunday_votes": 299636
+      }
+    },
+    {
+      "category": "Weekend Drop-off",
+      "finding": "Weekend activity drops by 50-53% compared to mid-week. Saturday has 315K votes vs Wednesday's 640K (49% of Wednesday). Sunday is even lower at 300K (47% of Wednesday).",
+      "data_points": {
+        "saturday_vs_wednesday_pct": "49%",
+        "sunday_vs_wednesday_pct": "47%"
+      }
+    },
+    {
+      "category": "Upvote-to-Downvote Ratio by Day",
+      "finding": "The upvote/downvote ratio is highest on Tuesday (6.9:1) and lowest on Saturday (4.86:1). Weekends see more critical/downvoting behavior relative to upvoting.",
+      "data_points": {
+        "tuesday_ratio": 6.9,
+        "saturday_ratio": 4.86,
+        "sunday_ratio": 5.1
+      }
+    },
+    {
+      "category": "Estimated Reputation Delta",
+      "finding": "Total estimated reputation generated per week-type: mid-week (Tue-Thu) generates ~4.4M rep/day across all users, weekends generate ~2M/day - a 2.2x difference.",
+      "data_points": {
+        "wednesday_rep_delta": 4492719,
+        "saturday_rep_delta": 2100150,
+        "ratio": 2.14
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+profile_completeness,user_count,pct_of_users,avg_reputation,median_reputation,p90_reputation,p99_reputation,avg_up_votes,avg_down_votes,avg_profile_views,avg_account_age_days,elite_users,pct_elite
+3_all_fields,149583,5.03,3082.0,322,5354,45285,286.4,37.2,377.4,2729.0,8592,5.74
+2_two_fields,323097,10.88,1117.0,46,1760,17150,130.2,20.8,126.2,1933.0,6072,1.88
+1_one_field,494568,16.65,471.0,11,676,7372,58.3,7.9,50.9,1808.0,3436,0.69
+0_no_fields,2003704,67.44,89.0,1,66,1504,10.6,0.9,9.5,835.0,2032,0.1

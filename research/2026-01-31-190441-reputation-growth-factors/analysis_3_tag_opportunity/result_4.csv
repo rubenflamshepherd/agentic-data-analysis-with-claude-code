@@ -1,0 +1,9 @@
+Waiting on bqjob_r407bbf9799ed5435_0000019c16f6fb80_1 ... (0s) Current status: RUNNING                                                                                      Waiting on bqjob_r407bbf9799ed5435_0000019c16f6fb80_1 ... (1s) Current status: RUNNING                                                                                      Waiting on bqjob_r407bbf9799ed5435_0000019c16f6fb80_1 ... (1s) Current status: DONE   
+category,total_answers,unique_answerers,unique_questions,avg_score,accept_rate_pct,answers_per_q,questions_per_answerer,avg_total_score_per_user,est_annual_rep_1pd,opportunity_index,opportunity_rank
+Systems/Low-level,319686,71817,228109,1.573,40.28,1.4,3.18,7.54,5743.0,143.61,1
+Data Science,1192344,236914,823939,1.091,52.87,1.45,3.48,7.74,3983.0,138.65,2
+Mobile,588529,161735,411560,1.54,43.3,1.43,2.54,8.22,5622.0,118.67,3
+Web Frontend,1244511,307809,847602,1.056,51.11,1.47,2.75,6.67,3856.0,101.26,4
+DevOps/Cloud,345254,126077,257424,1.365,37.24,1.34,2.04,4.37,4982.0,77.37,5
+Databases,489667,151668,357619,0.885,44.31,1.37,2.36,3.62,3232.0,67.56,6
+Web Backend,721644,251312,536814,0.998,36.43,1.34,2.14,3.33,3644.0,57.79,7

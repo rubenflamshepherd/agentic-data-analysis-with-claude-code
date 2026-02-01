@@ -1,0 +1,13 @@
+{
+  "exportedAt": "2026-02-01T00:22:21.469Z",
+  "tableFilter": null,
+  "chartIdFilter": "tags-3-chart-3",
+  "charts": [
+    {
+      "title": "Average Questions per Tag by Documentation Status",
+      "filename": "average_questions_per_tag_by_documentation_status.png",
+      "chartId": "tags-3-chart-3",
+      "tableName": "tags"
+    }
+  ]
+}

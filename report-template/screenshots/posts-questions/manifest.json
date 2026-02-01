@@ -1,0 +1,13 @@
+{
+  "exportedAt": "2026-02-01T00:20:52.471Z",
+  "tableFilter": null,
+  "chartIdFilter": "posts_questions-3-chart-4",
+  "charts": [
+    {
+      "title": "Accepted Answer Rate (%) by User Activity Level",
+      "filename": "accepted_answer_rate__by_user_activity_level.png",
+      "chartId": "posts_questions-3-chart-4",
+      "tableName": "posts_questions"
+    }
+  ]
+}

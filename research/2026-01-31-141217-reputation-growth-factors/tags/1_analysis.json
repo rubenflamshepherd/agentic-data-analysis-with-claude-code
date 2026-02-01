@@ -1,0 +1,51 @@
+{
+  "csv_path": "/Users/ruben.flam-shepherd/projects/data-claude/research/2026-01-31-141217-reputation-growth-factors/tags/1_result.csv",
+  "dataset_stats": {
+    "row_count": 100,
+    "column_count": 6,
+    "columns": ["tag_name", "question_count", "has_excerpt", "has_wiki", "documentation_status", "popularity_rank"]
+  },
+  "manual_analysis": {
+    "question_count_stats": {
+      "max": 2426650,
+      "min_in_top_100": 79154,
+      "top_5_sum": 9325154,
+      "top_10_sum": 14488835,
+      "range": "79K to 2.4M questions per tag"
+    },
+    "documentation_status": {
+      "fully_documented": 100,
+      "partially_documented": 0,
+      "undocumented": 0,
+      "note": "All top 100 tags are fully documented (have both excerpt and wiki)"
+    },
+    "language_distribution_in_top_10": {
+      "programming_languages": ["javascript", "python", "java", "c#", "php", "c++"],
+      "platforms": ["android"],
+      "web_tech": ["html", "jquery", "css"]
+    }
+  },
+  "patterns": [
+    {
+      "pattern_type": "pareto",
+      "description": "Extreme concentration: JavaScript alone has 2.4M questions, nearly 3x the 100th ranked tag (79K)",
+      "severity": "significant"
+    },
+    {
+      "pattern_type": "concentration",
+      "description": "Top 5 tags (JS, Python, Java, C#, PHP) collectively represent massive question volume",
+      "severity": "notable"
+    },
+    {
+      "pattern_type": "data_quality",
+      "description": "All top 100 tags have complete documentation (100% have excerpt and wiki)",
+      "severity": "info"
+    }
+  ],
+  "observations": [
+    "JavaScript is the most popular tag with 2.43M questions (20% more than Python)",
+    "Python (2.03M) has overtaken Java (1.87M) as the second most popular tag",
+    "Top 10 tags span web development (JS, HTML, CSS, jQuery), programming languages (Python, Java, C#, PHP, C++), and mobile (Android)",
+    "All top 100 tags are fully documented, indicating mature community support"
+  ]
+}

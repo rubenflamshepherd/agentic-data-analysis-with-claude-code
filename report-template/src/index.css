@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tremor Tab active state styling */
+[data-headlessui-state~="selected"] {
+  border-bottom-color: rgb(59 130 246) !important;
+  color: rgb(59 130 246) !important;
+}
+
+[role="tab"][aria-selected="true"] {
+  border-bottom-color: rgb(59 130 246) !important;
+  color: rgb(59 130 246) !important;
+}
+
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #1f2937;
+  background-color: #f9fafb;
+
+  /* Tremor theme variables for tooltips and dropdowns */
+  --tremor-content-subtle: #6b7280;
+  --tremor-content-default: #374151;
+  --tremor-content-emphasis: #1f2937;
+  --tremor-content-strong: #111827;
+  --tremor-content-inverted: #ffffff;
+
+  --tremor-background-muted: #f9fafb;
+  --tremor-background-subtle: #f3f4f6;
+  --tremor-background-default: #ffffff;
+  --tremor-background-emphasis: #374151;
+
+  --tremor-border-default: #e5e7eb;
+
+  --tremor-ring-default: #e5e7eb;
+
+  --tremor-brand-faint: #eff6ff;
+  --tremor-brand-muted: #bfdbfe;
+  --tremor-brand-subtle: #60a5fa;
+  --tremor-brand-default: #3b82f6;
+  --tremor-brand-emphasis: #1d4ed8;
+  --tremor-brand-inverted: #ffffff;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Tremor/Recharts tooltip styling */
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border: 1px solid rgba(229, 231, 235, 1) !important;
+  border-radius: 6px !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+
+/* Tremor custom tooltip wrapper */
+.recharts-tooltip-wrapper > div {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 8px !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+  padding: 8px 12px !important;
+  backdrop-filter: blur(4px) !important;
+}
+
+/* Ensure tooltip text is visible */
+.recharts-tooltip-wrapper p,
+.recharts-tooltip-wrapper span {
+  color: #374151 !important;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  section {
+    page-break-inside: avoid;
+  }
+}
+
+/* Tremor legend slider: prevent text from running under navigation arrows */
+ol.tremor-Legend-root > div[tabindex="0"] {
+  padding-right: 8rem !important;
+  margin-right: 3rem !important;
+}
+
+/* Legend padding for proper display */
+.tremor-Legend-root {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+}
+
+/* Fix rotated x-axis labels: anchor at end so they don't overlap into chart area */
+.recharts-xAxis .recharts-cartesian-axis-tick text[transform*="rotate"] {
+  text-anchor: end !important;
+}

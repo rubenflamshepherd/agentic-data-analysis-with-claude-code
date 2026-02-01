@@ -1,0 +1,13 @@
+{
+  "exportedAt": "2026-02-01T00:22:31.474Z",
+  "tableFilter": null,
+  "chartIdFilter": "posts_answers-3-chart-4",
+  "charts": [
+    {
+      "title": "Unique Answerers per Year",
+      "filename": "unique_answerers_per_year.png",
+      "chartId": "posts_answers-3-chart-4",
+      "tableName": "posts_answers"
+    }
+  ]
+}

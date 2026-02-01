@@ -1,0 +1,44 @@
+{
+  "query_description": "Vote Type Distribution Over Time (90 days: 2022-06-27 to 2022-09-24)",
+  "total_rows": 1078,
+  "date_range": "2022-06-27 to 2022-09-24",
+  "observations": [
+    {
+      "category": "Volume & Scale",
+      "finding": "Upvotes (type 2) dominate at ~35,000-42,000 per weekday. Weekends show ~50% reduction to ~19,000-20,000 upvotes.",
+      "data_points": {
+        "weekday_upvote_typical": "35000-42000",
+        "weekend_upvote_typical": "18000-21000",
+        "upvote_to_downvote_ratio": "6.7:1"
+      }
+    },
+    {
+      "category": "Vote Type Distribution",
+      "finding": "Reputation-affecting votes (types 1,2,3) account for ~85% of all daily votes. Upvotes (type 2) alone represent ~70% of all votes.",
+      "data_points": {
+        "type_1_accepted_daily_avg": "~1,600 weekday / ~1,000 weekend",
+        "type_2_upvote_daily_avg": "~38,000 weekday / ~19,500 weekend",
+        "type_3_downvote_daily_avg": "~5,700 weekday / ~3,800 weekend",
+        "type_5_favorite_daily_avg": "~2,900 weekday / ~1,700 weekend"
+      }
+    },
+    {
+      "category": "Temporal Patterns",
+      "finding": "Strong weekday/weekend pattern. Saturdays and Sundays consistently show 45-50% lower activity across all vote types. This suggests users earn reputation primarily during work hours.",
+      "data_points": {
+        "weekend_dates_sample": "2022-07-02 (Sat), 2022-07-03 (Sun)",
+        "weekday_dates_sample": "2022-07-05 (Tue), 2022-07-06 (Wed)"
+      }
+    },
+    {
+      "category": "Moderation Activity",
+      "finding": "Deletion votes (type 10) average ~2,400/day weekdays, suggesting active content moderation. Bounty activity (types 8,9) is minimal at ~50/day.",
+      "data_points": {
+        "deletion_votes_weekday": "~2,400",
+        "deletion_votes_weekend": "~1,600",
+        "bounty_start_daily": "~50",
+        "bounty_close_daily": "~50"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "exportedAt": "2026-02-01T00:21:32.726Z",
+  "tableFilter": null,
+  "chartIdFilter": "badges-3-chart-4",
+  "charts": [
+    {
+      "title": "Silver Badge Awards Weekly Trend",
+      "filename": "silver_badge_awards_weekly_trend.png",
+      "chartId": "badges-3-chart-4",
+      "tableName": "badges"
+    }
+  ]
+}

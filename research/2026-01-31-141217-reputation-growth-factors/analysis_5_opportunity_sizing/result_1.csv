@@ -1,0 +1,7 @@
+domain,total_questions,unanswered_questions,unanswered_pct,accepted_answers,accepted_pct,avg_hours_to_first_answer,avg_answer_score,avg_question_score,avg_answers_per_question
+ML/AI,22234,9335,42.0,5828,26.2,402.6,0.77,0.47,0.7
+DevOps,72060,23603,32.8,22916,31.8,308.0,1.04,0.68,0.8
+Java (Baseline),188452,57049,30.3,64652,34.3,146.4,0.83,0.33,1.0
+Cloud Platform,153688,40680,26.5,53602,34.9,246.4,0.85,0.51,0.9
+JavaScript (Baseline),369871,96857,26.2,148564,40.2,117.9,0.74,0.36,1.1
+Python (Baseline),549786,137122,24.9,228565,41.6,133.9,0.81,0.35,1.1

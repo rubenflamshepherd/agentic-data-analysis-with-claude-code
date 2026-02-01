@@ -1,0 +1,5 @@
+growth_type,user_count,pct_of_users,avg_reputation,median_reputation,avg_total_posts,avg_tenure_years,avg_pct_early,avg_pct_mid,avg_pct_late,avg_score_per_post
+Early Bloomer,27598,35.23,12787.0,5715.0,249.0,13.6,82.8,13.9,3.3,4.22
+Steady Grower,21404,27.32,14351.0,5448.0,386.0,14.4,22.3,52.2,25.6,2.96
+Plateau,19986,25.51,11855.0,5238.0,282.0,13.4,27.0,69.7,3.3,3.3
+Late Bloomer,9348,11.93,10748.0,4580.0,352.0,14.4,7.2,18.4,74.5,2.42

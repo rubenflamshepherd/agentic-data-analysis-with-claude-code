@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd report-template && npm install && npm run build",
+  "outputDirectory": "report-template/dist",
+  "framework": "vite"
+}

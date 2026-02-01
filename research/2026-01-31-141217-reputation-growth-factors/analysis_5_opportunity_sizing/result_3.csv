@@ -1,0 +1,6 @@
+domain,total_questions,unanswered_questions,unanswered_pct,acceptance_rate_when_answered,avg_upvotes_per_answer,total_potential_reputation,expected_rep_per_answer,unanswered_per_day
+Python (Baseline),259711,79547,30.6,54.1,0.73,2024058.0,25.4,204.0
+JavaScript (Baseline),197114,65613,33.3,52.4,0.67,1609174.0,24.5,168.2
+Cloud Platform,95520,33512,35.1,44.8,0.68,788861.0,23.5,85.9
+DevOps,44106,18242,41.4,45.7,0.8,453359.0,24.9,46.8
+ML/AI,31160,15104,48.5,46.8,0.67,358672.0,23.7,38.7

@@ -1,0 +1,144 @@
+#!/bin/bash
+
+# =============================================================================
+# BigQuery Dataset Configuration
+# =============================================================================
+# Set these to your target BigQuery project and dataset:
+#
+# export BQ_PROJECT=bigquery-public-data
+# export BQ_DATASET=stackoverflow
+#
+# Or for your own dataset:
+# export BQ_PROJECT=your-gcp-project
+# export BQ_DATASET=your_dataset
+# =============================================================================
+
+# BigQuery CLI setup and aliases
+export PATH="$HOME/google-cloud-sdk/bin:$PATH"
+
+# Basic aliases
+alias bqq='bq query --use_legacy_sql=false'
+alias bqqtocsv='bq query --use_legacy_sql=false --format=csv'
+alias bqls='bq ls'
+alias bqshow='bq show'
+alias bqcp='bq cp'
+alias bqmk='bq mk'
+alias bqrm='bq rm'
+alias bqdry='bq query --use_legacy_sql=false --dry_run'
+alias bqjobs='bq ls -j'
+alias bqhead='bq head'
+
+# Utility functions
+bqtables() {
+    if [ $# -eq 0 ]; then
+        echo "Usage: bqtables <dataset>"
+        return 1
+    fi
+    bq ls "$1"
+}
+
+bqschema() {
+    if [ $# -eq 0 ]; then
+        echo "Usage: bqschema <table>"
+        return 1
+    fi
+    bq show --schema --format=prettyjson "$1"
+}
+
+bqinfo() {
+    if [ $# -eq 0 ]; then
+        echo "Usage: bqinfo <table>"
+        return 1
+    fi
+    bq show "$1"
+}
+
+bqcount() {
+    if [ $# -eq 0 ]; then
+        echo "Usage: bqcount <table>"
+        return 1
+    fi
+    bq query --use_legacy_sql=false "SELECT COUNT(*) as row_count FROM \`$1\`"
+}
+
+bqpreview() {
+    if [ $# -eq 0 ]; then
+        echo "Usage: bqpreview <table> [limit]"
+        return 1
+    fi
+    local limit=${2:-10}
+    bq query --use_legacy_sql=false "SELECT * FROM \`$1\` LIMIT $limit"
+}
+
+bqsize() {
+    local query
+    # Check if input is piped or passed as argument
+    if [ ! -t 0 ]; then
+        # Read from stdin (piped input)
+        query=$(cat)
+    elif [ $# -gt 0 ]; then
+        # Use argument
+        query="$1"
+    else
+        echo "Usage: bqsize <query> OR cat query.sql | bqsize"
+        return 1
+    fi
+
+    # Run dry run and capture output
+    local output=$(bq query --use_legacy_sql=false --dry_run "$query" 2>&1)
+
+    # Extract bytes from output (macOS compatible)
+    local bytes=$(echo "$output" | grep -oE 'process [0-9]+ bytes' | grep -oE '[0-9]+')
+
+    if [ -z "$bytes" ]; then
+        echo "❌ Could not parse query size"
+        echo "$output"
+        return 1
+    fi
+
+    # Use awk for calculations
+    local result=$(awk -v bytes="$bytes" 'BEGIN {
+        gb = bytes / 1073741824
+        mb = bytes / 1048576
+        kb = bytes / 1024
+
+        # Determine emoji
+        if (gb < 30) {
+            emoji = "✅"
+        } else if (gb < 50) {
+            emoji = "⚠️"
+        } else {
+            emoji = "🔴"
+        }
+
+        # Format output
+        if (gb >= 1) {
+            printf "%s %.2f GB", emoji, gb
+        } else if (mb >= 1) {
+            printf "%s %.2f MB", emoji, mb
+        } else {
+            printf "%s %.2f KB", emoji, kb
+        }
+    }')
+
+    echo "$result"
+}
+
+# Show helpful commands
+bqhelp() {
+    echo "BigQuery CLI Shortcuts:"
+    echo "  bqq <query>        - Run SQL query"
+    echo "  bqqtocsv <query>   - Run SQL query and output to csv"
+    echo "  bqdry <query>      - Dry run SQL query"
+    echo "  bqsize <query>     - Dry run with emoji size indicator (✅<30GB ⚠️20-50GB 🔴>50GB)"
+    echo "  bqls [dataset]     - List datasets or tables"
+    echo "  bqtables <dataset> - List tables in dataset"
+    echo "  bqshow <table>     - Show table info"
+    echo "  bqschema <table>   - Show table schema"
+    echo "  bqinfo <table>     - Show detailed table info"
+    echo "  bqcount <table>    - Count rows in table"
+    echo "  bqpreview <table>  - Preview first 10 rows"
+    echo "  bqhead <table>     - Show first few rows"
+}
+
+# Aliases loaded silently. Type 'bqhelp' for available commands.

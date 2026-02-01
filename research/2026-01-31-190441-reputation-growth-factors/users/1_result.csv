@@ -1,0 +1,8 @@
+reputation_tier,user_count,pct_of_users,min_reputation,max_reputation,avg_reputation,avg_up_votes,avg_down_votes,up_vote_pct,avg_profile_views,avg_account_age_days,avg_days_since_last_access
+1_reputation_1,1839701,61.92,1,1,1.0,0.1,0.1,49.7,0.9,585.0,26.0
+2_reputation_2_10,73300,2.47,2,10,4.0,0.1,0.0,99.8,4.5,1109.0,21.0
+3_reputation_11_100,529203,17.81,11,100,36.0,11.9,0.0,100.0,8.9,1645.0,18.0
+4_reputation_101_1000,366292,12.33,101,1000,361.0,96.7,3.2,96.8,51.7,2693.0,14.0
+5_reputation_1k_10k,142325,4.79,1001,10000,2890.0,424.7,40.6,91.3,316.6,3518.0,10.0
+6_reputation_10k_100k,19137,0.64,10002,99778,23994.0,1443.1,397.4,78.4,2339.6,4126.0,8.0
+7_reputation_100k_plus,994,0.03,100042,1357603,209866.0,5172.9,3289.7,61.1,26240.9,4406.0,6.0

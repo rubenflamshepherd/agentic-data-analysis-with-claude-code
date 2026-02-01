@@ -1,0 +1,42 @@
+{
+  "query_description": "Weekly Vote Volume Trends and Reputation Growth Patterns",
+  "total_rows": 13,
+  "date_range": "2022-06-27 to 2022-09-24 (13 weeks)",
+  "observations": [
+    {
+      "category": "Overall Trend",
+      "finding": "Weekly upvote volume remained relatively stable (230K-240K per week) for the first 12 weeks, with a sharp 10.17% drop in the final week (2022-09-19).",
+      "data_points": {
+        "avg_weekly_upvotes_weeks_1_12": 231917,
+        "final_week_upvotes": 210262,
+        "final_week_drop_pct": "-10.17%"
+      }
+    },
+    {
+      "category": "Reputation Economy Size",
+      "finding": "Approximately 1.9-2.0 million reputation points are created across all users each week. This represents ~280K reputation-affecting votes generating net positive reputation.",
+      "data_points": {
+        "avg_weekly_rep_created": 1951175,
+        "peak_week_rep": 2016328,
+        "low_week_rep": 1759372
+      }
+    },
+    {
+      "category": "Upvote/Downvote Ratio Stability",
+      "finding": "The up/down ratio remained in a narrow band of 6.05-6.49 across all weeks, indicating a stable voting culture. Week of 2022-09-12 had the lowest ratio (6.05).",
+      "data_points": {
+        "max_ratio": 6.49,
+        "min_ratio": 6.05,
+        "ratio_range": 0.44
+      }
+    },
+    {
+      "category": "Week-over-Week Volatility",
+      "finding": "Most weeks show WoW changes between -3% and +3%, except the final week with -10.17% drop (likely partial week or data cutoff).",
+      "data_points": {
+        "typical_wow_range": "-3% to +3%",
+        "largest_drop": "-10.17% (week of 2022-09-19)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+question_count_bucket,num_tags,pct_of_tags,total_questions_in_bucket,pct_of_questions,min_questions_in_bucket,max_questions_in_bucket,avg_questions_per_tag
+1M+ questions,8,0.01,12886919,18.86,1029561,2426650,1610865.0
+100K-1M questions,68,0.11,16542215,24.21,102633,776837,243268.0
+10K-100K questions,730,1.15,19517190,28.56,10006,99988,26736.0
+1K-10K questions,4478,7.04,13158288,19.25,1000,9973,2938.0
+100-1K questions,15919,25.01,5113035,7.48,100,999,321.0
+10-100 questions,27749,43.59,1058367,1.55,10,99,38.0
+<10 questions,14701,23.1,65421,0.1,0,9,4.0

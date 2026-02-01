@@ -1,0 +1,8 @@
+activity_bucket,user_count,total_questions,avg_total_score,avg_score_per_q,pct_positive_questions,pct_high_score_questions,pct_with_accepted,avg_views_per_q
+a. 1 question,522118,522118,0.21,0.21,22.8,0.54,20.99,161.0
+b. 2-3 questions,180812,415519,0.59,0.26,25.22,0.58,30.29,175.0
+c. 4-5 questions,46364,202960,1.26,0.29,25.95,0.63,35.17,186.0
+d. 6-10 questions,32956,242417,2.29,0.31,26.81,0.66,38.04,190.0
+e. 11-20 questions,11514,161642,5.2,0.37,28.62,0.78,40.56,199.0
+f. 21-50 questions,3880,113510,11.68,0.4,29.79,0.85,42.78,209.0
+g. 50+ questions,590,46582,33.9,0.44,30.77,1.15,46.26,208.0

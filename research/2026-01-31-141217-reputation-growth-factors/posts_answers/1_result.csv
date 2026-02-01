@@ -1,0 +1,8 @@
+answer_bucket,user_count,total_answers_in_bucket,avg_total_score_per_user,avg_score_per_answer,avg_max_score,avg_pct_positive_answers,avg_pct_zero_score,avg_pct_negative_answers
+1_answer,1406533,1406533,2.02,2.02,2.02,41.85,51.94,6.21
+2-5_answers,826218,2403505,6.02,2.03,5.1,43.21,52.28,4.51
+6-10_answers,245283,1866977,17.96,2.35,12.14,47.06,49.44,3.5
+11-50_answers,308651,6795534,59.65,2.64,29.04,50.44,46.64,2.91
+51-100_answers,52769,3701406,210.96,3.0,72.15,56.2,41.66,2.13
+101-500_answers,41500,8092238,660.48,3.32,149.56,61.19,37.2,1.61
+500+_answers,6861,9395510,5229.14,3.74,415.46,69.99,29.13,0.89

@@ -1,0 +1,7 @@
+volume_tier,tag_count,total_questions,avg_questions_per_tag,fully_documented_count,has_some_docs_count,undocumented_count,pct_fully_documented
+1. 1M+ questions,8,12886919,1610865.0,8,8,0,100.0
+2. 100K-999K questions,68,16542215,243268.0,68,68,0,100.0
+3. 10K-99K questions,730,19517190,26736.0,730,730,0,100.0
+4. 1K-9.9K questions,4478,13158288,2938.0,4470,4470,8,99.8
+5. 100-999 questions,15919,5113035,321.0,14523,14523,1396,91.2
+6. <100 questions,42450,1123788,26.0,25167,25167,17283,59.3

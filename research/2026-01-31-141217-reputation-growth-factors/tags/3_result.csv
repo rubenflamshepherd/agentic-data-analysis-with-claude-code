@@ -1,0 +1,13 @@
+technology_domain,tag_count,total_questions,avg_questions_per_tag,max_questions_in_domain,fully_documented_count,pct_documented
+Other,56405,41861584,742.0,1146245,40153,71.2
+Programming Language,29,12712868,438375.0,2426650,29,100.0
+Mobile Development,1417,3480544,2456.0,1386459,906,63.9
+Database,13,2447431,188264.0,651413,13,100.0
+Web Framework,13,2020784,155445.0,370124,13,100.0
+Frontend Framework,1239,1664114,1343.0,415837,662,53.4
+Database Related,1539,1040789,676.0,189284,1088,70.7
+Cloud Platform,885,903816,1021.0,141687,539,60.9
+Language Ecosystem,815,796977,978.0,323080,609,74.7
+Data Science / ML,122,648718,5317.0,259731,87,71.3
+Version-Specific,934,396407,424.0,25813,744,79.7
+DevOps,242,367403,1518.0,120499,123,50.8
