@@ -341,11 +341,6 @@ export function QuerySection({ query }: QuerySectionProps) {
     return value.toString();
   };
 
-  // Format percentage values
-  const formatPercentValue = (value: number): string => {
-    return `${value.toFixed(1)}%`;
-  };
-
   // Apply xKey transformation if specified
   const applyXKeyTransform = (value: string, transform?: 'prefix'): string => {
     if (!transform) return value;

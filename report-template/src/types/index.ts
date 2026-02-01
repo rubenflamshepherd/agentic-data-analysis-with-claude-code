@@ -25,7 +25,7 @@ export type ChartQAStatus = 'pending' | 'passed' | 'failed' | 'needs_repair';
 export interface ChartConfig {
   id: string;
   title: string;
-  description: string; // What this chart visualizes and why - used by chart-qa for validation
+  description?: string; // What this chart visualizes and why - used by chart-qa for validation
   type: 'area' | 'bar' | 'line' | 'donut';
   xKey: string;
   yKey: string | string[];
