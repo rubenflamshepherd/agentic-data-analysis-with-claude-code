@@ -153,4 +153,29 @@ The system uses parallel agent execution for efficiency:
 - Results are written to files, main session reads summaries
 - Enables analyzing 15-20 tables per session
 
+```mermaid
+flowchart LR
+    subgraph init["/initial-analysis"]
+        D["🤖 table-finder"] --> E1["🤖 table-reader 1"]
+        D --> E2["🤖 table-reader 2"]
+        D --> E3["🤖 table-reader N"]
+        E1 --> F["📄 initial-analysis.md"]
+        E2 --> F
+        E3 --> F
+        F --> G1["🤖 table-report 1"]
+        F --> G2["🤖 table-report 2"]
+        F --> G3["🤖 table-report N"]
+        G1 --> H["🤖 initial-report-orchestrator"]
+        G2 --> H
+        G3 --> H
+        H --> J["🌐 localhost:8000"]
+        J --> I1["🤖 chart-qa 1"]
+        J --> I2["🤖 chart-qa 2"]
+        J --> I3["🤖 chart-qa N"]
+        I1 --> K["🌐 localhost:8000"]
+        I2 --> K
+        I3 --> K
+    end
+```
+
 See individual agent files in `.claude/agents/` for detailed documentation.
