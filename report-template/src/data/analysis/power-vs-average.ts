@@ -46,6 +46,7 @@ export const powerVsAverage: TableAnalysis = {
           type: "bar",
           xKey: "cohort",
           yKey: "avg_answers_per_user",
+          qaStatus: 'passed',
         },
         {
           id: "power-vs-average-q1-chart-2",
@@ -54,6 +55,7 @@ export const powerVsAverage: TableAnalysis = {
           type: "bar",
           xKey: "cohort",
           yKey: "avg_score_per_answer",
+          qaStatus: 'passed',
         },
         {
           id: "power-vs-average-q1-chart-3",
@@ -62,6 +64,7 @@ export const powerVsAverage: TableAnalysis = {
           type: "bar",
           xKey: "cohort",
           yKey: "avg_acceptance_rate_pct",
+          qaStatus: 'passed',
         },
         {
           id: "power-vs-average-q1-chart-4",
@@ -70,6 +73,7 @@ export const powerVsAverage: TableAnalysis = {
           type: "bar",
           xKey: "cohort",
           yKey: "avg_positive_rate_pct",
+          qaStatus: 'passed',
         },
       ],
     },
@@ -95,6 +99,7 @@ export const powerVsAverage: TableAnalysis = {
           type: "bar",
           xKey: "cohort",
           yKey: "pct_users_who_answered_first_90d",
+          qaStatus: 'passed',
         },
         {
           id: "power-vs-average-q2-chart-2",
@@ -103,6 +108,7 @@ export const powerVsAverage: TableAnalysis = {
           type: "bar",
           xKey: "cohort",
           yKey: "avg_answers_first_90d",
+          qaStatus: 'passed',
         },
         {
           id: "power-vs-average-q2-chart-3",
@@ -111,6 +117,7 @@ export const powerVsAverage: TableAnalysis = {
           type: "bar",
           xKey: "cohort",
           yKey: "avg_score_first_90d",
+          qaStatus: 'passed',
         },
         {
           id: "power-vs-average-q2-chart-4",
@@ -119,6 +126,7 @@ export const powerVsAverage: TableAnalysis = {
           type: "bar",
           xKey: "cohort",
           yKey: "pct_with_10plus_first_90d",
+          qaStatus: 'passed',
         },
       ],
     },
@@ -144,6 +152,7 @@ export const powerVsAverage: TableAnalysis = {
           type: "bar",
           xKey: "cohort",
           yKey: "median_response_time_hours",
+          qaStatus: 'passed',
         },
         {
           id: "power-vs-average-q3-chart-2",
@@ -152,6 +161,7 @@ export const powerVsAverage: TableAnalysis = {
           type: "bar",
           xKey: "cohort",
           yKey: "pct_answered_within_1hr",
+          qaStatus: 'passed',
         },
         {
           id: "power-vs-average-q3-chart-3",
@@ -160,6 +170,7 @@ export const powerVsAverage: TableAnalysis = {
           type: "bar",
           xKey: "cohort",
           yKey: "pct_answered_within_24hr",
+          qaStatus: 'passed',
         },
         {
           id: "power-vs-average-q3-chart-4",
@@ -168,6 +179,7 @@ export const powerVsAverage: TableAnalysis = {
           type: "bar",
           xKey: "cohort",
           yKey: "acceptance_rate_pct",
+          qaStatus: 'passed',
         },
       ],
     },
@@ -193,6 +205,7 @@ export const powerVsAverage: TableAnalysis = {
           type: "bar",
           xKey: "cohort",
           yKey: "avg_distinct_tags_per_user",
+          qaStatus: 'passed',
         },
         {
           id: "power-vs-average-q4-chart-2",
@@ -201,6 +214,7 @@ export const powerVsAverage: TableAnalysis = {
           type: "bar",
           xKey: "cohort",
           yKey: "avg_top_tag_concentration_pct",
+          qaStatus: 'passed',
         },
         {
           id: "power-vs-average-q4-chart-3",
@@ -209,6 +223,7 @@ export const powerVsAverage: TableAnalysis = {
           type: "bar",
           xKey: "cohort",
           yKey: "pct_single_tag_users",
+          qaStatus: 'passed',
         },
         {
           id: "power-vs-average-q4-chart-4",
@@ -217,6 +232,7 @@ export const powerVsAverage: TableAnalysis = {
           type: "bar",
           xKey: "cohort",
           yKey: "pct_10plus_tag_users",
+          qaStatus: 'passed',
         },
       ],
     },
@@ -244,6 +260,7 @@ export const powerVsAverage: TableAnalysis = {
           yKey: "answer_count",
           filter: { field: "cohort", value: "power_user_top1pct" },
           rotateLabelX: { angle: -45, xAxisHeight: 100 },
+          qaStatus: 'passed',
         },
         {
           id: "power-vs-average-q5-chart-2",
@@ -254,6 +271,7 @@ export const powerVsAverage: TableAnalysis = {
           yKey: "answer_count",
           filter: { field: "cohort", value: "average_user_1_100rep" },
           rotateLabelX: { angle: -45, xAxisHeight: 100 },
+          qaStatus: 'passed',
         },
         {
           id: "power-vs-average-q5-chart-3",
@@ -264,6 +282,7 @@ export const powerVsAverage: TableAnalysis = {
           yKey: "avg_score",
           filter: { field: "cohort", value: "power_user_top1pct" },
           rotateLabelX: { angle: -45, xAxisHeight: 100 },
+          qaStatus: 'passed',
         },
         {
           id: "power-vs-average-q5-chart-4",
@@ -274,6 +293,7 @@ export const powerVsAverage: TableAnalysis = {
           yKey: "avg_score",
           filter: { field: "cohort", value: "average_user_1_100rep" },
           rotateLabelX: { angle: -45, xAxisHeight: 100 },
+          qaStatus: 'passed',
         },
       ],
     },

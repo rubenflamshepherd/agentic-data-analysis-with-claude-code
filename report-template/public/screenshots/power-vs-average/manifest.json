@@ -1,0 +1,13 @@
+{
+  "exportedAt": "2026-03-09T15:31:19.946Z",
+  "tableFilter": null,
+  "chartIdFilter": "power-vs-average-q3-chart-4",
+  "charts": [
+    {
+      "title": "Acceptance Rate by Cohort",
+      "filename": "acceptance_rate_by_cohort.png",
+      "chartId": "power-vs-average-q3-chart-4",
+      "tableName": "power_vs_average"
+    }
+  ]
+}

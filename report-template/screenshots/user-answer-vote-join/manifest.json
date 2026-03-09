@@ -1,0 +1,13 @@
+{
+  "exportedAt": "2026-03-09T15:37:12.204Z",
+  "tableFilter": null,
+  "chartIdFilter": "user-answer-vote-join-q4-chart-4",
+  "charts": [
+    {
+      "title": "Reputation Growth Rate (Rep/Day)",
+      "filename": "reputation_growth_rate_repday.png",
+      "chartId": "user-answer-vote-join-q4-chart-4",
+      "tableName": "user_answer_vote_join"
+    }
+  ]
+}

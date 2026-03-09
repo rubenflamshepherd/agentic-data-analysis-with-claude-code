@@ -37,7 +37,11 @@ function parseCSVLine(line: string): string[] {
  * Handles quoted fields containing commas.
  */
 export function parseCSV(csvText: string): Record<string, string | number>[] {
-  const lines = csvText.trim().split('\n');
+  // Skip any leading non-CSV lines (e.g., BigQuery job status messages)
+  const lines = csvText.trim().split('\n').filter(line => {
+    const trimmed = line.trim();
+    return trimmed !== '' && !trimmed.startsWith('Waiting on bqjob');
+  });
 
   if (lines.length < 2) {
     return [];
