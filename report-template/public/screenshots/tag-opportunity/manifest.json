@@ -1,0 +1,13 @@
+{
+  "exportedAt": "2026-03-09T15:37:52.064Z",
+  "tableFilter": null,
+  "chartIdFilter": "tag-opportunity-q1-chart-3",
+  "charts": [
+    {
+      "title": "Top 15 Tags by Average Score Per Answer",
+      "filename": "top_15_tags_by_average_score_per_answer.png",
+      "chartId": "tag-opportunity-q1-chart-3",
+      "tableName": "tag_opportunity"
+    }
+  ]
+}

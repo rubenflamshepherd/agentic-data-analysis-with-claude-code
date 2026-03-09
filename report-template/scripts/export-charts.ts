@@ -114,7 +114,9 @@ async function exportChartsOnCurrentTab(
     try {
       // Scroll the card into view for screenshot
       await card.scrollIntoViewIfNeeded({ timeout: 5000 });
-      await page.waitForTimeout(500); // Wait for chart animation to complete
+      // Wait for LazyChart IntersectionObserver to trigger and chart to render
+      // The chart uses showAnimation, so we need enough time for both lazy-load and animation
+      await page.waitForTimeout(2000);
 
       // Take screenshot of the chart card element directly
       const savePath = path.join(outputDir, `${filename}.png`);

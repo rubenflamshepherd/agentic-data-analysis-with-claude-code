@@ -42,6 +42,7 @@ export const acceptedPredictor: TableAnalysis = {
           type: "bar",
           xKey: "response_time_bucket",
           yKey: "acceptance_rate_pct",
+          qaStatus: 'passed',
         },
         {
           id: "accepted-predictor-q1-chart-2",
@@ -49,6 +50,7 @@ export const acceptedPredictor: TableAnalysis = {
           type: "bar",
           xKey: "response_time_bucket",
           yKey: "pct_of_all_answers",
+          qaStatus: 'passed',
         },
         {
           id: "accepted-predictor-q1-chart-3",
@@ -56,6 +58,7 @@ export const acceptedPredictor: TableAnalysis = {
           type: "bar",
           xKey: "response_time_bucket",
           yKey: "avg_score",
+          qaStatus: 'passed',
         },
       ],
     },
@@ -79,6 +82,7 @@ export const acceptedPredictor: TableAnalysis = {
           type: "bar",
           xKey: "length_bucket",
           yKey: "acceptance_rate_pct",
+          qaStatus: 'passed',
         },
         {
           id: "accepted-predictor-q2-chart-2",
@@ -86,6 +90,7 @@ export const acceptedPredictor: TableAnalysis = {
           type: "bar",
           xKey: "length_bucket",
           yKey: "avg_score",
+          qaStatus: 'passed',
         },
         {
           id: "accepted-predictor-q2-chart-3",
@@ -93,6 +98,7 @@ export const acceptedPredictor: TableAnalysis = {
           type: "bar",
           xKey: "length_bucket",
           yKey: "pct_of_all_answers",
+          qaStatus: 'passed',
         },
       ],
     },
@@ -116,6 +122,7 @@ export const acceptedPredictor: TableAnalysis = {
           type: "bar",
           xKey: "reputation_tier",
           yKey: "acceptance_rate_pct",
+          qaStatus: 'passed',
         },
         {
           id: "accepted-predictor-q3-chart-2",
@@ -123,6 +130,7 @@ export const acceptedPredictor: TableAnalysis = {
           type: "bar",
           xKey: "reputation_tier",
           yKey: "avg_answer_length",
+          qaStatus: 'passed',
         },
         {
           id: "accepted-predictor-q3-chart-3",
@@ -130,6 +138,7 @@ export const acceptedPredictor: TableAnalysis = {
           type: "bar",
           xKey: "reputation_tier",
           yKey: "pct_of_all_answers",
+          qaStatus: 'passed',
         },
       ],
     },
@@ -155,6 +164,7 @@ export const acceptedPredictor: TableAnalysis = {
           yKey: "acceptance_rate_pct",
           categoryKey: "rep_bucket",
           filter: { field: "length_bucket", value: "Long" },
+          qaStatus: 'passed',
         },
         {
           id: "accepted-predictor-q4-chart-2",
@@ -164,6 +174,7 @@ export const acceptedPredictor: TableAnalysis = {
           yKey: "acceptance_rate_pct",
           categoryKey: "rep_bucket",
           filter: { field: "speed_bucket", value: "Fast (<4hr)" },
+          qaStatus: 'passed',
         },
         {
           id: "accepted-predictor-q4-chart-3",
@@ -173,6 +184,7 @@ export const acceptedPredictor: TableAnalysis = {
           yKey: "acceptance_rate_pct",
           categoryKey: "length_bucket",
           filter: { field: "rep_bucket", value: "High (25k+)" },
+          qaStatus: 'passed',
         },
         {
           id: "accepted-predictor-q4-chart-4",
@@ -182,6 +194,7 @@ export const acceptedPredictor: TableAnalysis = {
           yKey: "total_answers",
           categoryKey: "rep_bucket",
           filter: { field: "length_bucket", value: "Medium" },
+          qaStatus: 'passed',
         },
       ],
     },

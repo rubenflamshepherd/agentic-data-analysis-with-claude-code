@@ -1,0 +1,85 @@
+{
+  "exportedAt": "2026-03-09T15:30:04.041Z",
+  "tableFilter": "accepted_predictor",
+  "chartIdFilter": null,
+  "charts": [
+    {
+      "title": "Acceptance Rate by Response Time",
+      "filename": "acceptance_rate_by_response_time.png",
+      "chartId": "accepted-predictor-q1-chart-1",
+      "tableName": "accepted_predictor"
+    },
+    {
+      "title": "Distribution of Answers by Response Time",
+      "filename": "distribution_of_answers_by_response_time.png",
+      "chartId": "accepted-predictor-q1-chart-2",
+      "tableName": "accepted_predictor"
+    },
+    {
+      "title": "Average Score by Response Time",
+      "filename": "average_score_by_response_time.png",
+      "chartId": "accepted-predictor-q1-chart-3",
+      "tableName": "accepted_predictor"
+    },
+    {
+      "title": "Acceptance Rate by Answer Length",
+      "filename": "acceptance_rate_by_answer_length.png",
+      "chartId": "accepted-predictor-q2-chart-1",
+      "tableName": "accepted_predictor"
+    },
+    {
+      "title": "Average Score by Answer Length",
+      "filename": "average_score_by_answer_length.png",
+      "chartId": "accepted-predictor-q2-chart-2",
+      "tableName": "accepted_predictor"
+    },
+    {
+      "title": "Distribution of Answers by Length",
+      "filename": "distribution_of_answers_by_length.png",
+      "chartId": "accepted-predictor-q2-chart-3",
+      "tableName": "accepted_predictor"
+    },
+    {
+      "title": "Acceptance Rate by Reputation Tier",
+      "filename": "acceptance_rate_by_reputation_tier.png",
+      "chartId": "accepted-predictor-q3-chart-1",
+      "tableName": "accepted_predictor"
+    },
+    {
+      "title": "Average Answer Length by Reputation Tier",
+      "filename": "average_answer_length_by_reputation_tier.png",
+      "chartId": "accepted-predictor-q3-chart-2",
+      "tableName": "accepted_predictor"
+    },
+    {
+      "title": "Distribution of Answers by Reputation Tier",
+      "filename": "distribution_of_answers_by_reputation_tier.png",
+      "chartId": "accepted-predictor-q3-chart-3",
+      "tableName": "accepted_predictor"
+    },
+    {
+      "title": "Acceptance Rate by Factor Combination (Top 10)",
+      "filename": "acceptance_rate_by_factor_combination_top_10.png",
+      "chartId": "accepted-predictor-q4-chart-1",
+      "tableName": "accepted_predictor"
+    },
+    {
+      "title": "Fast Responses: Acceptance by Length and Reputation",
+      "filename": "fast_responses_acceptance_by_length_and_reputation.png",
+      "chartId": "accepted-predictor-q4-chart-2",
+      "tableName": "accepted_predictor"
+    },
+    {
+      "title": "High Reputation Users: Acceptance by Speed and Length",
+      "filename": "high_reputation_users_acceptance_by_speed_and_length.png",
+      "chartId": "accepted-predictor-q4-chart-3",
+      "tableName": "accepted_predictor"
+    },
+    {
+      "title": "Volume Distribution by Factor Combination",
+      "filename": "volume_distribution_by_factor_combination.png",
+      "chartId": "accepted-predictor-q4-chart-4",
+      "tableName": "accepted_predictor"
+    }
+  ]
+}

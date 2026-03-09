@@ -42,6 +42,10 @@ export const timeTo1000: TableAnalysis = {
           type: "bar",
           xKey: "cohort_year",
           yKey: "median_days_to_1000",
+          qaStatus: 'needs_repair',
+          originalScreenshotPath: 'screenshots/time-to-1000/originals/median_days_to_reach_1000_reputation_by_cohort_year.png',
+          qaIssue: 'Chart rendered empty due to BigQuery status line in CSV being parsed as header',
+          qaFix: 'Fixed CSV parser to skip BigQuery job status lines',
         },
         {
           id: "analysis_4_time_to_1000-q1-chart-2",
@@ -49,6 +53,7 @@ export const timeTo1000: TableAnalysis = {
           type: "bar",
           xKey: "cohort_year",
           yKey: "users_reached_1000",
+          qaStatus: 'passed',
         },
         {
           id: "analysis_4_time_to_1000-q1-chart-3",
@@ -56,6 +61,7 @@ export const timeTo1000: TableAnalysis = {
           type: "bar",
           xKey: "cohort_year",
           yKey: ["pct_fast_achievers", "pct_slow_achievers"],
+          qaStatus: 'passed',
         },
       ],
     },
@@ -80,6 +86,7 @@ export const timeTo1000: TableAnalysis = {
           xKey: "cohort_year",
           yKey: "median_days_to_1000",
           categoryKey: "activity_bucket",
+          qaStatus: 'passed',
         },
         {
           id: "analysis_4_time_to_1000-q2-chart-2",
@@ -88,6 +95,7 @@ export const timeTo1000: TableAnalysis = {
           xKey: "cohort_year",
           yKey: "median_days_to_1000",
           filter: { field: "activity_bucket", value: "4_very_high_50plus" },
+          qaStatus: 'passed',
         },
         {
           id: "analysis_4_time_to_1000-q2-chart-3",
@@ -96,6 +104,7 @@ export const timeTo1000: TableAnalysis = {
           xKey: "cohort_year",
           yKey: "pct_fast_achievers",
           categoryKey: "activity_bucket",
+          qaStatus: 'passed',
         },
       ],
     },
@@ -119,6 +128,7 @@ export const timeTo1000: TableAnalysis = {
           type: "bar",
           xKey: "cohort_year",
           yKey: "avg_score_per_answer",
+          qaStatus: 'passed',
         },
         {
           id: "analysis_4_time_to_1000-q3-chart-2",
@@ -126,6 +136,7 @@ export const timeTo1000: TableAnalysis = {
           type: "line",
           xKey: "cohort_year",
           yKey: ["pct_reaching_100_score", "pct_reaching_1000_score"],
+          qaStatus: 'passed',
         },
         {
           id: "analysis_4_time_to_1000-q3-chart-3",
@@ -133,6 +144,7 @@ export const timeTo1000: TableAnalysis = {
           type: "bar",
           xKey: "cohort_year",
           yKey: ["median_user_score_per_answer", "p90_user_score_per_answer"],
+          qaStatus: 'passed',
         },
       ],
     },
@@ -156,6 +168,7 @@ export const timeTo1000: TableAnalysis = {
           type: "bar",
           xKey: "cohort_year",
           yKey: "avg_total_score",
+          qaStatus: 'passed',
         },
         {
           id: "analysis_4_time_to_1000-q4-chart-2",
@@ -163,6 +176,7 @@ export const timeTo1000: TableAnalysis = {
           type: "line",
           xKey: "cohort_year",
           yKey: ["pct_100_plus_score", "pct_200_plus_score"],
+          qaStatus: 'passed',
         },
         {
           id: "analysis_4_time_to_1000-q4-chart-3",
@@ -170,6 +184,7 @@ export const timeTo1000: TableAnalysis = {
           type: "bar",
           xKey: "cohort_year",
           yKey: "median_total_score",
+          qaStatus: 'passed',
         },
       ],
     },

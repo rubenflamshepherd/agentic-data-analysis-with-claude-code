@@ -42,6 +42,7 @@ export const userAnswerVoteJoin: TableAnalysis = {
           type: "bar",
           xKey: "reputation_tier",
           yKey: "answers_pct_of_total_rep",
+          qaStatus: 'passed',
         },
         {
           id: "user-answer-vote-join-q1-chart-2",
@@ -49,6 +50,7 @@ export const userAnswerVoteJoin: TableAnalysis = {
           type: "bar",
           xKey: "reputation_tier",
           yKey: "avg_answers_per_user",
+          qaStatus: 'passed',
         },
         {
           id: "user-answer-vote-join-q1-chart-3",
@@ -56,6 +58,7 @@ export const userAnswerVoteJoin: TableAnalysis = {
           type: "bar",
           xKey: "reputation_tier",
           yKey: ["pct_positive_answers", "pct_negative_answers"],
+          qaStatus: 'passed',
         },
       ],
     },
@@ -79,6 +82,7 @@ export const userAnswerVoteJoin: TableAnalysis = {
           type: "bar",
           xKey: "reputation_tier",
           yKey: "upvote_downvote_ratio",
+          qaStatus: 'passed',
         },
         {
           id: "user-answer-vote-join-q2-chart-2",
@@ -86,6 +90,7 @@ export const userAnswerVoteJoin: TableAnalysis = {
           type: "bar",
           xKey: "reputation_tier",
           yKey: ["pct_rep_from_upvotes", "pct_rep_from_accepted"],
+          qaStatus: 'passed',
         },
         {
           id: "user-answer-vote-join-q2-chart-3",
@@ -93,6 +98,7 @@ export const userAnswerVoteJoin: TableAnalysis = {
           type: "bar",
           xKey: "reputation_tier",
           yKey: "avg_upvotes_per_active_user",
+          qaStatus: 'passed',
         },
       ],
     },
@@ -116,6 +122,7 @@ export const userAnswerVoteJoin: TableAnalysis = {
           type: "bar",
           xKey: "reputation_tier",
           yKey: ["est_rep_per_answer", "est_rep_per_question"],
+          qaStatus: 'passed',
         },
         {
           id: "user-answer-vote-join-q3-chart-2",
@@ -123,6 +130,7 @@ export const userAnswerVoteJoin: TableAnalysis = {
           type: "bar",
           xKey: "reputation_tier",
           yKey: "answer_to_question_ratio",
+          qaStatus: 'passed',
         },
         {
           id: "user-answer-vote-join-q3-chart-3",
@@ -130,6 +138,7 @@ export const userAnswerVoteJoin: TableAnalysis = {
           type: "bar",
           xKey: "reputation_tier",
           yKey: "pct_rep_from_answers",
+          qaStatus: 'passed',
         },
       ],
     },
@@ -154,6 +163,7 @@ export const userAnswerVoteJoin: TableAnalysis = {
           type: "bar",
           xKey: "growth_category",
           yKey: "pct_with_answers",
+          qaStatus: 'passed',
         },
         {
           id: "user-answer-vote-join-q4-chart-2",
@@ -161,6 +171,7 @@ export const userAnswerVoteJoin: TableAnalysis = {
           type: "bar",
           xKey: "growth_category",
           yKey: "avg_score_if_answered",
+          qaStatus: 'passed',
         },
         {
           id: "user-answer-vote-join-q4-chart-3",
@@ -168,6 +179,7 @@ export const userAnswerVoteJoin: TableAnalysis = {
           type: "bar",
           xKey: "growth_category",
           yKey: "avg_days_to_first_answer",
+          qaStatus: 'passed',
         },
         {
           id: "user-answer-vote-join-q4-chart-4",
@@ -175,6 +187,7 @@ export const userAnswerVoteJoin: TableAnalysis = {
           type: "bar",
           xKey: "growth_category",
           yKey: "avg_rep_per_day",
+          qaStatus: 'passed',
         },
       ],
     },
